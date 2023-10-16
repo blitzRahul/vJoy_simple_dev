@@ -5,7 +5,7 @@ How did I obtain the latest version then? It's present in the vJoy installation 
 ## Prerequisites
 1. visual studio community(any version) with *.NET desktop development*
 2. basic knowledge of how to write code in C#
-### note: how does all of this work exactly? you write code in .NET to interact with the vJoy drivers (feed data etc.) and then you can spawn this feeder as a child process in other languages to extend functionality. Example: you can use input from arduino as the vJoy joystick input.
+**note: how does all of this work exactly? you write code in .NET to interact with the vJoy drivers (feed data etc.) and then you can spawn this feeder as a child process in other languages to extend functionality. Example: you can use input from arduino as the vJoy joystick input.**
 
 ## SDK 'installation'
 copy **vjoyInterface.dll** to **C:\Windows\System32** this will ensure that your .NET application is able to interact with the vJoy driver
